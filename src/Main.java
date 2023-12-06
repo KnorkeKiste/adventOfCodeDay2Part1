@@ -1,8 +1,6 @@
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -17,7 +15,7 @@ public class Main {
         int green = 0;
         int blue = 0;
         int ergebnis = 0;
-        boolean erfolgreich = true;
+        boolean erfolgreich;
         Pattern pattern = Pattern.compile("[0-9]{1,2}");
 
 
